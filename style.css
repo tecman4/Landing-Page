@@ -5,12 +5,15 @@ body {
   display: block;
   margin:25px;
 
+  background-color: #1f2937;
+  color: white;
+
 }
 
 .container {
   height: 72px;
   width: 100%;
-  background: darkblue;
+
   color: white;
   font-size: 32px;
   font-weight: 900;
@@ -28,15 +31,34 @@ display: flex;
   display: flex;
   align-items: center;
   justify-content:space-between;
-  background-color: darkblue;
+
   color: white;
+  margin-bottom: 150px;
 }
 .left{
 font-size:x-large;
 font-weight: bold;
+display: flex;
+margin-left: 150px;
 }
 .right{
   display: flex;
-  color: white;
+
+
   
+}
+a{
+  margin:15px;
+}
+.main{
+
+
+}
+.mainheader{
+  font-size: 35px;
+  font-weight: bold;
+  margin: 15px;
+  margin-left: 150px;
+
+
 }
