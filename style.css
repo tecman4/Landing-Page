@@ -36,7 +36,7 @@ display: flex;
   margin-bottom: 150px;
 }
 .left{
-font-size:x-large;
+font-size:large;
 font-weight: bold;
 display: flex;
 margin-left: 150px;
@@ -50,15 +50,35 @@ margin-left: 150px;
 a{
   margin:15px;
 }
-.main{
 
+img{
+  display:flex;
+  height: 300px;
+  width: 500px;
+  margin: 15px;
+  align-items: center;
+  justify-content: right;
 
 }
 .mainheader{
   font-size: 35px;
   font-weight: bold;
-  margin: 15px;
   margin-left: 150px;
+  display:flex;
+  align-items: center;
+  justify-content: left;
 
 
 }
+.main{
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+
+}
+text{
+  display: flex;
+
+}
+
+
