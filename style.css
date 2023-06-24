@@ -5,45 +5,38 @@ body {
   display: block;
   margin:25px;
 
-  background-color: #1f2937;
-  color: white;
 
 }
 
-.container {
-  height: 72px;
-  width: 100%;
-
-  color: white;
-  font-size: 32px;
-  font-weight: 900;
-display: flex;
-
-}
 
 .links{
   display: flex;
   align-items: center;
   justify-content: right;
+  text-decoration: none; 
 
 }
 .header{
   display: flex;
   align-items: center;
   justify-content:space-between;
+  color: #F9FAF8;
+  font-size: 24PX;
 
-  color: white;
-  margin-bottom: 150px;
+  font-weight: bold;
+  background-color: #1f2937;
 }
 .left{
-font-size:large;
-font-weight: bold;
 display: flex;
 margin-left: 150px;
+flex-direction: column;
+align-items:start;
+margin-right: 50px;
+
 }
 .right{
   display: flex;
-
+  margin-right: 200px;
 
   
 }
@@ -54,31 +47,75 @@ a{
 img{
   display:flex;
   height: 300px;
-  width: 500px;
+  width: 600px;
   margin: 15px;
-  align-items: center;
-  justify-content: right;
+  background-color:#E5E7EB;
+  text-align: center;
+  
 
 }
-.mainheader{
-  font-size: 35px;
-  font-weight: bold;
-  margin-left: 150px;
-  display:flex;
-  align-items: center;
-  justify-content: left;
+.maintext{
+  font-size: 48px;
+  font-weight: 800;
+  color:#F9FAF8;
+
 
 
 }
 .main{
   display: flex;
   align-items: center;
-  justify-content:space-between;
+  background-color: #1f2937;
+
 
 }
-text{
+.secondarytext{
+  font-size:18px;
+  font-weight:lighter;
+  color:#E5E7EB;
+  
+
+}
+button{
+  background-color: #3882F6;
+  color:white;
+height: 25px;
+width: 100px;
+border-radius: 5px;
+}
+
+footer{
+  background-color: #1f2937;
+}
+.main{
+  height: 800px;
+  width: 100%;
+}
+.quote{
   display: flex;
+  background-color:#E5E7EB;
+  height:400px;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+justify-content: center;
 
 }
+  .quotetext{
+display: flex;
+font-size:36px;
+font-style: italic;
+margin: 25% 25% 0% 25%;
+margin-bottom: 20px;
+
+}
+.quotename{
+  display: flex;
+  margin-bottom: 25%;
+  justify-content:end ;
+  width: 100%;
+margin-right: 50%;
+font-weight: bold;
 
 
+}
